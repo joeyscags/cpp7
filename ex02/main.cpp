@@ -20,9 +20,9 @@ int main( void )
 
 	std::cout << "\n--- copy constructor ---" << std::endl;
 	Array<int>	copy(ints);
-	copy[4] = 999;
-	std::cout << "ints[0] = " << ints[4] << std::endl;
-	std::cout << "copy[0] = " << copy[4] << std::endl;
+	copy[0] = 999;
+	std::cout << "ints[0] = " << ints[0] << std::endl;
+	std::cout << "copy[0] = " << copy[0] << std::endl;
 
 	std::cout << "\n--- assignment operator ---" << std::endl;
 	Array<int>	assigned;

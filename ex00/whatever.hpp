@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   whatever.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joeyscags <jcupp@student.42heilbronn.de    +#+  +:+       +#+        */
+/*   By: jcupp <jcupp@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/24 16:39:03 by joeyscags         #+#    #+#             */
-/*   Updated: 2026/02/24 20:05:32 by joeyscags        ###   ########.fr       */
+/*   Updated: 2026/03/03 18:08:06 by jcupp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,13 @@ void	swap( T &a, T &b )
 template <typename T>
 T	min( T a, T b )
 {
-	return (b < a) ? b : a;
+	return (a < b) ? a : b;
 }
 
 template <typename T>
 T	max( T a, T b )
 {
-	return (b > a) ? b : a;
+	return (a > b) ? a : b;
 }
 
 #endif
